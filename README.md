@@ -39,8 +39,8 @@ Should you require a monochromatic version of the code, simply replicate the mon
 
 1.  The Laplacian Blending script (LaplacianBlend.m)
 2.  Any helper MATLAB function script files that are needed to get this to work (Gaussian Pyramid, Laplacian Pyramid, Blending, etc.)
-3.  An example test script used to illustrate the blending
-4.  A sample pair of images and an associated alpha mask used for the test script in (3)
+3.  An example test script used to illustrate the blending (testBlend.m)
+4.  A sample pair of images and an associated alpha mask used for the test script in (3).  These images were provided by the Computational Photography Coursera course.
 
 # License
 This code is protected under the MIT License.  You may feel free to use the code in any way, shape, or form and can modify it to your heart's content.  You may also include the code in any applications that you develop without releasing any of your code publicly (as per the GPL).  The only thing I request is that you cite where the source came from and give me credit whenever you decide to use it.  Thanks!
