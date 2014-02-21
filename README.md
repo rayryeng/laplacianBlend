@@ -19,6 +19,10 @@ This code is essentially a transcription of an assignment done from a course on 
 
 Prof. Irfan Essa was the instructor of the course and gave an awesome lecture on how this kind of blending works.  To better understand the theory behind Laplacian Pyramids, Gaussian Pyramids and the entire blending procedure, take a look [at these slides](https://www.dropbox.com/s/nuntpy76kdboz0j/ESSA-03-3-Pyramids.pdf?dl=1).
 
+# Requires
+
+Any version of MATLAB with the Image Processing Toolbox installed. Specifically, ``imread``, ``imshow`` and ``imfilter`` is what is required.  Alternatively, this should be Octave friendly so you can use that environment if you like.  
+
 # How to run the code
 
 Assuming that you already have two images that you wish to blend on hand (``black`` and ``white``), as well as the alpha mask that delineates which pixels to include in the final image (``mask``), you would simply run the script using the following:
